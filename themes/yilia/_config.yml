@@ -6,10 +6,10 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/ByuTech"
+  # weibo: "#"
+  # rss: "#"
+  # zhihu: "#"
   #douban: "#"
   #mail: "#"
   #facebook: "#"
@@ -55,6 +55,6 @@ friends: false
 
 #是否开启“关于我”。
 #不开启——
-#aboutme: false
+aboutme: false
 #开启——
-aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…
+# aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…
