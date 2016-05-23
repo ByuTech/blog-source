@@ -15,5 +15,7 @@
 <% } %>
 
 <% if (post.author) { %>
-    Author: <a href="<%- config.root %><%- 'author/' + post.authorId %>"><%= post.author.name %></a>
+  <div class="article-meta" style="top: 50px; ">
+    By: <a href="<%- config.root %><%- 'author/' + post.authorId %>"><%= post.author.name %></a>
+  </div>
 <% } %>
