@@ -13,3 +13,7 @@
     </h1>
   <% } %>
 <% } %>
+
+<% if (post.author) { %>
+    Author: <a href="<%- config.root %><%- 'author/' + post.authorId %>"><%= post.author.name %></a>
+<% } %>
